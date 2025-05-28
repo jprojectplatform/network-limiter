@@ -1,6 +1,6 @@
 <p align="center"><img src="https://i.ytimg.com/vi/7Znj6BBBHOQ/maxresdefault.jpg" /></p>
 
-# Network Limiter
+# J Network Limiter
 
 [![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Compatibility](https://img.shields.io/badge/python-3-brightgreen.svg)](PROJECT)
@@ -9,7 +9,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
 A tool to monitor, analyze and limit the bandwidth (upload/download) of devices on your local network an Easy Blocks other without physical or administrative access.<br>
-```evillimiter``` employs [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing) and [traffic shaping](https://en.wikipedia.org/wiki/Traffic_shaping) to throttle the bandwidth of hosts on the network.
+``` J Network Limiter``` employs [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing) and [traffic shaping](https://en.wikipedia.org/wiki/Traffic_shaping) to throttle the bandwidth of hosts on the network.
 
 
 ## Requirements
