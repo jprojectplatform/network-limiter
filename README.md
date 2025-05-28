@@ -1,6 +1,6 @@
 <p align="center"><img src="https://i.ytimg.com/vi/7Znj6BBBHOQ/maxresdefault.jpg" /></p>
 
-# Evil Limiter
+# Network Limiter
 
 [![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Compatibility](https://img.shields.io/badge/python-3-brightgreen.svg)](PROJECT)
@@ -8,11 +8,9 @@
 [![HitCount](http://hits.dwyl.io/bitbrute/evillimiter.svg)](http://hits.dwyl.io/bitbrute/evillimiter)
 [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
-A tool to monitor, analyze and limit the bandwidth (upload/download) of devices on your local network without physical or administrative access.<br>
+A tool to monitor, analyze and limit the bandwidth (upload/download) of devices on your local network an Easy Blocks other without physical or administrative access.<br>
 ```evillimiter``` employs [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing) and [traffic shaping](https://en.wikipedia.org/wiki/Traffic_shaping) to throttle the bandwidth of hosts on the network.
 
-**Searching for a Windows-compatible version?**<br>
-Check out the open-source alternative [EvilLimiter for Windows](https://github.com/bitbrute/evillimiter-windows).
 
 ## Requirements
 - Linux distribution
@@ -23,8 +21,8 @@ Possibly missing python packages will be installed during the installation proce
 ## Installation
 
 ```bash
-git clone https://github.com/bitbrute/evillimiter.git
-cd evillimiter
+git clone https://github.com/bitbrute/network-limiter.git
+cd network-limiter
 sudo python3 setup.py install
 ```
 
@@ -48,7 +46,7 @@ Type ```evillimiter``` or ```python3 bin/evillimiter``` to run the tool.
 | ```-f``` | Flushes current iptables and tc configuration. Ensures that packets are dealt with correctly.|
 | ```--colorless``` | Disables colored output |
 
-#### ```evillimiter``` Commands
+#### ```network-limiter``` Commands
 
 | Command | Explanation |
 | ------- | ----------- |
